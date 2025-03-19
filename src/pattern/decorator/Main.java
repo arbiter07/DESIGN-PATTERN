@@ -10,6 +10,5 @@ public class Main {
 
     coffee = new SugarDecorator(coffee); // 설탕 추가
     System.out.println(coffee.getDescription() + " Cost: " + coffee.cost());
-}
-
+  }
 }
